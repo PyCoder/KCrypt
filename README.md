@@ -16,6 +16,5 @@ Have fun :)
 
 
 
-All KCrypt Artworks are copywrited.
 
-© Copyright 2011-2021 by PyCoder.  All rights reserved.
+© Copyright 2011-2021 of all KCrypt Artworks by PyCoder.  All rights reserved.
