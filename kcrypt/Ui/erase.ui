@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>209</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Secure Erase</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icons/icon.png</normaloff>../icons/icon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Erase Settings:</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" columnminimumwidth="200,0">
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelDevice">
+        <property name="text">
+         <string>Device:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" rowspan="2">
+       <widget class="QComboBox" name="comboDevice">
+        <item>
+         <property name="text">
+          <string>None</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0" rowspan="2">
+       <widget class="QLabel" name="labelMethod">
+        <property name="text">
+         <string>Method:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboMethod">
+        <item>
+         <property name="text">
+          <string>Zero</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>NSA 130-2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ghost</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>HMG IS 5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>DoD 5220.22-M (E)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>DoD 5220.22-M (ECE)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OPS II</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>VSITR</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Schneier</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gutman Method</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="labelStrength">
+        <property name="text">
+         <string>Pass:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="labelPasses">
+        <property name="text">
+         <string>0/1</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QProgressBar" name="progressBar">
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Abort|QDialogButtonBox::Close|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

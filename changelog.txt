@@ -1,0 +1,17 @@
+1.1
+Load ui files directly with uic.loadUi() and removed ui_files
+Load icons directly and removed ressources
+Wizard now only shows supported filesystems (by mkfs)
+
+1.2
+Replaced old-style signal/slots against new-style signal/slots
+Replaced [-:2] and [:-3] with .split('_') in main.py and language.py
+Added new algorithm to erase.py
+Added unicode() for translation
+Rewritten wizard.py
+Changed focusPolicy in kcrypt.ui and fixed Dismount
+Added checkPermission()
+Added checkSystemTryIcon()
+Added checkDeleteMountPoint()
+Removed closeTimer()
+Added german translation
