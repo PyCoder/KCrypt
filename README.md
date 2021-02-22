@@ -9,12 +9,10 @@ I'll release the code here for other people to study.
 
 Have fun :)
 
+### Donation in Bitcoin:
+![3EiDHWZewRv4WUwbyLyBQMzGvqksPYh7VT](https://github.com/PyCoder/KWipe/blob/master/share/kwipe/icons/qr.png?raw=true)
 
-
-
-Donations are welcome:
 3EiDHWZewRv4WUwbyLyBQMzGvqksPYh7VT
-
 
 
 
